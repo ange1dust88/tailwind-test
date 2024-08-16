@@ -1,0 +1,10 @@
+{
+  "name": "my-tailwind-project",
+  "version": "1.0.0",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/main.css -o ./src/styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.9"
+  }
+}
